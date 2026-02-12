@@ -13,7 +13,8 @@ export function Button({
   className = "",
   ...props
 }: Props) {
-  const base = "px-4 py-2 rounded-lg transition disabled:opacity-50";
+  const base =
+    "px-4 py-2 rounded-lg transition disabled:opacity-50 cursor-pointer disabled:cursor-not-allowed";
 
   const variants: Record<Variant, string> = {
     primary: "bg-blue-600 text-white hover:bg-blue-700",

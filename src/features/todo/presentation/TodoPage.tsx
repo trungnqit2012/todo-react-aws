@@ -82,7 +82,7 @@ export function TodoPage() {
 
             <button
               onClick={() => authService.logout()}
-              className="px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200"
+              className="px-3 py-1.5 rounded-lg bg-slate-100 hover:bg-slate-200 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed transition"
             >
               Logout
             </button>
